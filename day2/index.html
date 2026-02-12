@@ -1,0 +1,36 @@
+<html lang="ko">
+<head>
+    <link rel="icon" href="https://via.placeholder.com/32" type="image/png">
+    <meta charset="UTF-8">
+    <title>Day 2 - DOM 조작</title>
+    <style>
+        .highlight {
+            background-color: yellow;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="title">제목</h1>
+    <p class="content">첫 번째 문단</p>
+    <p class="content">두 번째 문단</p>
+    
+    <button id="changeBtn">클릭하세요!</button>
+    <button id="addBtn">문단 추가</button>
+    
+    <input type="text" id="nameInput" placeholder="이름 입력">
+    <button id="greetBtn">인사하기</button>
+    <p id="greeting"></p>
+
+    <!-- 이미지 슬라이드 -->
+    <div id="imageContainer">
+        <img id="slideImage" 
+            src="images/image1.jpg" 
+            alt="슬라이드 이미지" 
+            style="width: 300px; height: 200px;">
+        <button id="imageBtn">다음 이미지</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
